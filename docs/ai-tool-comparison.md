@@ -29,9 +29,17 @@ In this comparison, we tested (2 or 4) different AI tutoring tools using two AP 
 ## Electricity & Magnetism Question
 
 **Question (Source: AP Course and Exam Description):**  
+A cylindrical wire segment with length 0.25 m and diameter 3.0 1× 0 m−3
+dissipates energy at a rate of 6.0 1× 0 W−4 when a current of 0.50 A is in the wire
+segment. Which of the following is approximately equal to the resistivity of the
+wire?
+(A) 6.8 1× Ω 0 m −8 ⋅
+(B) 9.0 1× Ω 0 m −5 ⋅
+(C) 7.5 1× Ω 0 m −3 ⋅
+(D) 840 Ω⋅m
 
 **Correct Answer:**  
-
+(A)
 
 ---
 
