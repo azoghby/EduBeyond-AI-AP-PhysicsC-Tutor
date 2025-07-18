@@ -30,18 +30,19 @@ change in momentum of the object from t = 0 to t = 3 seconds?
 ### Khanmigo Response:
 
 
+### Socratic Response:
+
 ---
 
 ## Electricity & Magnetism Question
 
 **Question (Source: AP Course and Exam Description):**  
-A cylindrical wire segment with length 0.25 m and diameter 3.0 1× 0 m−3
-dissipates energy at a rate of 6.0 1× 0 W−4 when a current of 0.50 A is in the wire
-segment. Which of the following is approximately equal to the resistivity of the
-wire?
-(A) 6.8 1× Ω 0 m −8 ⋅
-(B) 9.0 1× Ω 0 m −5 ⋅
-(C) 7.5 1× Ω 0 m −3 ⋅
+A cylindrical wire segment with length 0.25 m and diameter 3.0 × 10^−3 m
+dissipates energy at a rate of 6.0 × 10^−4 W when a current of 0.50 A is in the wire
+segment. Which of the following is approximately equal to the resistivity of the wire?
+(A) 6.8 × 10^-8 Ω⋅m 
+(B) 9.0 × 10^-5 Ω⋅m
+(C) 7.5 × 10^-3 Ω⋅m
 (D) 840 Ω⋅m
 
 **Correct Answer:**  
@@ -50,10 +51,16 @@ wire?
 ---
 
 ### ChatGPT Response:
-...
+
+
+### Poe Response:
+
+
+### Khanmigo Response:
+
 
 ### Socratic Response:
-...
+
 
 ---
 
