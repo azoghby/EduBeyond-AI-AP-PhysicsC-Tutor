@@ -1,17 +1,23 @@
 # AI Tutor Comparison – AP Physics C MCQ
 
 ## Overview
-In this comparison, we tested (2 or 4) different AI tutoring tools using two AP Physics C multiple-choice questions — one from Mechanics and one from Electricity & Magnetism. We evaluated the tools based on clarity, accuracy, depth of explanation, and formatting.
+In this comparison, we tested 4 different AI tutoring tools using two AP Physics C multiple-choice questions — one from Mechanics and one from Electricity & Magnetism. We evaluated the tools based on clarity, accuracy, depth of explanation, and formatting.
 
 ---
 
 ## Mechanics Question
 
 **Question (Source: AP Course and Exam Description):**  
-
+The net force F exerted on an object that moves along a straight line is given as a
+function of time t by F(t) = At^2 + B, where A=1 N/s^2 and B=1 N. What is the
+change in momentum of the object from t = 0 to t = 3 seconds?
+(A) 6 kg·m/s 
+(B) 12 kg·m/s
+(C) 17 kg·m/s 
+(D) 30 kg·m/s
 
 **Correct Answer:**  
-\( a = g \sin(\theta) = 9.8 \times \sin(30^\circ) = 4.9 \, \text{m/s}^2 \)
+(B)
 
 ---
 
