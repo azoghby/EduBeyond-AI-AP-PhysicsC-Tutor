@@ -22,16 +22,18 @@ change in momentum of the object from t = 0 to t = 3 seconds?
 ---
 
 ### ChatGPT Response:
-
+(B) - Category	Evaluation
+Clarity 5/5 - Very clear -- the setup of the problem, function definition, and limits of integration are all cleanly explained.
+Accuracy 5/5 -	correct math throughout, including splitting the integral, computing each part, and combining results.
+Depth	5/5 - Demonstrates conceptual understanding -- explicitly links impulse to change in momentum.
+Formatting 5/5 - Uses good math formatting and separates steps nicely for readability.
 
 ### Poe Response:
-
-
-### Khanmigo Response:
-
-
-### Socratic Response:
-
+(B) - Category Evaluation
+Clarity 5/5 - Very clear. Everything is clearly explained.
+Accuracy 5/5 - Correctly interprets, sets up, and evaluates the problem. 
+Depth 5/5 - Explains why each formula is used. Breaks up integrals clearly and steps through evaluation. 
+Formatting 5/5 - Clear, readable formatting.
 ---
 
 ## Electricity & Magnetism Question
@@ -51,21 +53,19 @@ segment. Which of the following is approximately equal to the resistivity of the
 ---
 
 ### ChatGPT Response:
-
+(A) - Category	Evaluation
+Clarity	5/5 — The layout is good overall and broken into steps.
+Accuracy	5/5 — All physics and math are correct: uses correct equations, computes resistance, area, and resistivity correctly.
+Depth	4.5/5 — Includes all needed formulas and steps, but could better explain why each step is taken (e.g., "We're using this equation because power and current are known...").
+Formatting	5/5 — Very clear and easy to follow.
 
 ### Poe Response:
-
-
-### Khanmigo Response:
-
-
-### Socratic Response:
-
-
+(A) - Category Evaluation
+Clarity 5/5 - Very clear. Everything is clearly explained.
+Accuracy 5/5 - Correctly interprets, sets up, and evaluates the problem. 
+Depth 5/5 - Explains why each formula is used. Breaks up integrals clearly and steps through evaluation. 
+Formatting 5/5 - Clear, readable formatting.
 ---
-
-
-
 
 ## Summary
 
