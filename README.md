@@ -8,37 +8,37 @@ HUVTSP/EduBeyond -- A research and ideation project for building an AI chatbot t
 
 **EduBeyond AI** is an intelligent tutoring system designed to support AP Physics C students with personalized question generation, step-by-step solutions, and interactive learning features.
 
-## 🚀 Features
+## Features
 
-### 📚 Question Generation
+### Question Generation
 - **15 AP Physics C Topics**: Newton's Laws, Work/Energy/Power, Momentum, Rotation, Oscillations, Gravitation, Electric Fields, Gauss's Law, Electric Potential, Capacitance, Current & Circuits, Magnetic Fields, Ampère's Law, Faraday's Law, and Induction
 - **Multiple Question Types**: Multiple Choice Questions (MCQ) and Free Response Questions (FRQ)
 - **Difficulty Levels**: Easy, Medium, and Hard problems
 - **Answer Formats**: Numeric calculations, mathematical derivations, and concept-based explanations
 
-### 🎯 Interactive Learning
+### Interactive Learning
 - **Custom Question Solver**: Submit your own physics problems for AI-powered solutions
 - **Real-time Chat**: Ask follow-up questions about generated problems
 - **Step-by-step Solutions**: Detailed explanations with physics principles, equations, and mathematical work
 
-### 🎮 Gamification System
+### Gamification System
 - **Points & Achievements**: Earn points for generating questions, solving problems, and engaging with content
 - **Progress Tracking**: Monitor your learning journey with completion rates and streaks
 - **Achievement Badges**: Unlock achievements like "Physics Explorer," "Problem Solver," and "On Fire"
 
-### 🔧 Technical Features
+### Technical Features
 - **Responsive Web Interface**: Built with Streamlit for an intuitive user experience
 - **AI-Powered**: Utilizes OpenRouter's free tier with Google's Gemma 2 model
 - **Session Management**: Persistent chat history and progress tracking
 - **Error Handling**: Comprehensive error messages and helpful tips
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.11 or higher
 - Internet connection for AI model access
 - OpenRouter API key (free tier available)
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -59,7 +59,7 @@ HUVTSP/EduBeyond -- A research and ideation project for building an AI chatbot t
      ```
    - Option 2: Edit `chatbot.py` line 7 to include your API key directly
 
-## 🚀 Running the Application
+## Running the Application
 
 ### Method 1: Using the Batch File (Windows)
 Double-click `run_app.bat` or run in terminal:
@@ -80,7 +80,7 @@ streamlit run chatbot.py
 
 The application will open in your default web browser at `http://localhost:8501`
 
-## 📖 How to Use
+## How to Use
 
 ### 1. Generate Physics Questions
 1. Select your desired topic from the dropdown menu
@@ -99,18 +99,18 @@ The application will open in your default web browser at `http://localhost:8501`
 2. Submit your own answers to test understanding
 3. Earn points and unlock achievements as you progress
 
-## 🎮 Gamification Features
+## Gamification Features
 
 | Achievement | Requirement | Points |
 |-------------|-------------|---------|
-| 🌟 First Steps | Generate first question | 10 pts |
-| 🔬 Physics Explorer | Generate 5 questions | 50 pts |
-| 🏆 Physics Master | Generate 10 questions | 100 pts |
-| 🤔 Curious Mind | Ask 5 questions in chat | 25 pts |
-| 🧩 Problem Solver | Complete 3 problems | 75 pts |
-| 🔥 On Fire | 3 question streak | 30 pts |
+| First Steps | Generate first question | 10 pts |
+| Physics Explorer | Generate 5 questions | 50 pts |
+| Physics Master | Generate 10 questions | 100 pts |
+| Curious Mind | Ask 5 questions in chat | 25 pts |
+| Problem Solver | Complete 3 problems | 75 pts |
+| On Fire | 3 question streak | 30 pts |
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 EduBeyond-AI-AP-PhysicsC-Tutor/
@@ -121,7 +121,7 @@ EduBeyond-AI-AP-PhysicsC-Tutor/
 └── requirements.txt       # Python dependencies (if needed)
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### API Key Setup
 The application uses OpenRouter for AI capabilities. You can:
@@ -134,45 +134,18 @@ The application uses OpenRouter for AI capabilities. You can:
 - **Models**: Change the AI model in the `openrouter_client.chat.completions.create()` calls
 - **Styling**: Customize the Streamlit interface by modifying the UI components
 
-## 🤝 Contributing
-
-We welcome contributions to improve EduBeyond AI! Here's how you can help:
-
-1. **Fork the repository**
-2. **Create a feature branch**
-   ```bash
-   git checkout -b feature/new-feature
-   ```
-3. **Make your changes**
-4. **Commit your changes**
-   ```bash
-   git commit -m "Add new feature"
-   ```
-5. **Push to the branch**
-   ```bash
-   git push origin feature/new-feature
-   ```
-6. **Open a Pull Request**
-
-### Areas for Contribution
-- Additional physics topics or question types
-- Enhanced gamification features
-- Mobile responsiveness improvements
-- Performance optimizations
-- Bug fixes and error handling
-
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **OpenRouter** for providing free AI model access
 - **Streamlit** for the excellent web framework
 - **Google Gemma 2** for the underlying AI model
 - **AP Physics C Community** for inspiration and feedback
 
-## 📞 Support
+## Support
 
 If you encounter any issues or have questions:
 
@@ -180,17 +153,17 @@ If you encounter any issues or have questions:
 2. **Create a new issue** if your problem isn't already addressed
 3. **Include error messages** and steps to reproduce the problem
 
-## 🔮 Future Plans
+## Future Development
 
-- [ ] Support for additional physics courses (AP Physics 1, AP Physics 2)
-- [ ] Integration with learning management systems
-- [ ] Mobile app development
-- [ ] Advanced analytics and learning insights
-- [ ] Collaborative study features
-- [ ] Video explanation generation
+- Support for additional physics courses (AP Physics 1, AP Physics 2)
+- Integration with learning management systems
+- Mobile app development
+- Advanced analytics and learning insights
+- Collaborative study features
+- Video explanation generation
 
 ---
 
-**Built with ❤️ for AP Physics C students by the EduBeyond team**
+**Built for AP Physics C students by the EduBeyond team**
 
-*Empowering students to excel in physics through AI-powered personalized learning*
+*Helping students excel in physics through intelligent tutoring*
