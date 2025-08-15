@@ -5,7 +5,7 @@ from openai import OpenAI
 # Get OpenRouter API key from environment variables
 OPENROUTER_API_KEY = os.environ.get(
     "OPENROUTER_API_KEY",
-    "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"
+    "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"
 )
 
 # Initialize OpenRouter client using OpenAI-compatible interface
@@ -200,7 +200,7 @@ display_gamification_sidebar()
 import random
 import datetime
 
-# List of AP Physics C topics (same as your dropdown)
+# List of AP Physics C topics 
 TOPICS_LIST = [
     "Newton's Laws", "Work, Energy and Power", "Momentum", "Rotation",
     "Oscillations", "Gravitation", "Electric Fields", "Gauss's Law",
@@ -241,10 +241,8 @@ def start_daily_quiz():
     explanation = openrouter_client.chat.completions.create(
         model="google/gemma-2-9b-it:free",
         messages=[{
-            "role":
-            "system",
-            "content":
-            "You are an expert AP Physics C instructor with extensive experience in creating high-quality exam questions. You understand the AP Physics C curriculum, appropriate difficulty levels, and effective pedagogical approaches. Generate questions that are authentic, challenging, and educationally valuable."
+            "role": "system",
+            "content": "You are an expert AP Physics C tutor."
         }, {
             "role": "user",
             "content": explain_prompt
@@ -257,7 +255,8 @@ def start_daily_quiz():
     questions = []
     for _ in range(7):
         prompt = f"""Generate one standard numeric based AP Physics C Multiple Choice question about {topic}.
-Provide exactly 5 answer choices (A-E) and mark the correct answer clearly."""
+Provide exactly 5 answer choices (A-E) and mark the correct answer clearly.
+At the end, write 'Correct Answer: X' where X is the correct option."""
         resp = openrouter_client.chat.completions.create(
             model="google/gemma-2-9b-it:free",
             messages=[{
@@ -326,8 +325,9 @@ if st.session_state.quiz_mode:
             st.success(
                 f"🎉 Quiz Complete! You scored {st.session_state.quiz_score}/7."
             )
-            award_points(st.session_state.quiz_score * 2,
+            award_points(st.session_state.quiz_score * 10,
                          "Daily quiz completed!")
+
 # === Custom Question Solver ===
 st.subheader("📝 Ask Your Own AP Physics C Question")
 
@@ -338,6 +338,10 @@ user_custom_question = st.text_area(
 )
 
 if st.button("💡 Solve My Question", use_container_width=True):
+    st.session_state.questions_attempted += 1
+    st.session_state.current_streak += 1
+    award_points(20, "Solved your custom physics problem!")
+    check_achievements()
     if user_custom_question.strip():
         with st.spinner("Solving your question..."):
             try:
@@ -383,8 +387,6 @@ Problem:
 
                     # Gamification hook
                     st.session_state.questions_completed += 1
-                    award_points(20, "Solved your custom physics problem!")
-                    check_achievements()
 
             except Exception as e:
                 st.error(f"⚠️ Error solving question: {str(e)}")
@@ -438,7 +440,6 @@ with col2:
 Requirements:
 1. Create an authentic AP Physics C level question appropriate for the {difficulty} difficulty level
 2. For MCQ: Provide 5 answer choices (A-E) with plausible distractors with the correct answer.
-    -
 3. For FRQ: Create a multi-part question typical of AP Physics C exams
 4. Include relevant physics constants and formulas when needed
 5. Present the question clearly with proper mathematical notation
@@ -696,5 +697,3 @@ st.markdown("""
 </div>
 """,
             unsafe_allow_html=True)
-
-
