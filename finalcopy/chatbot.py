@@ -5,7 +5,7 @@ from openai import OpenAI
 # Get OpenRouter API key from environment variables
 OPENROUTER_API_KEY = os.environ.get(
     "OPENROUTER_API_KEY",
-    "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"
+    ""
 )
 
 # Initialize OpenRouter client using OpenAI-compatible interface
@@ -697,3 +697,4 @@ st.markdown("""
 </div>
 """,
             unsafe_allow_html=True)
+
